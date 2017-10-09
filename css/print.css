@@ -1,0 +1,137 @@
+html {
+ font-size: 100%
+ line-height: 1.15; /*line-hight has a unitless value */
+ }
+
+/* img is a selector or a type selector (a type of html element) */
+/* max with is a property, and defines the maximum with; 100% is a value */
+
+p {
+  margin: 10em, 10em;
+  padding: 10em, 10em;
+}
+
+/* --- layout --- */
+
+/* main text margin offset */
+
+.margin-offset {
+  margin-right: 10%
+  margin-left: 10%
+}
+
+/* --- section --- */
+
+body {
+  width: 90%
+  max-width: 60em; /* 960px  */
+  margin: 1em auto; /* 1em = 16px */
+}
+
+header{
+  font-family: sans-serif;
+  text-align: center;
+}
+main {
+  margin: 3.5em 0 0;
+}
+
+/* --- figures --- */
+
+figure {
+ margin: 0;
+ }
+
+figure.artwork {
+  margin-bottom: 1em;
+}
+
+figcaption.credit {
+    font-size: 8em;
+    text-align: right;
+    }
+
+/* grayscale (black to white) 0123456789abcdef */
+
+  figure.headshot {
+   float: left;
+   width: 7.5em;
+   height: 7.5em;
+   border: .5em solid #eee;
+   border-radius: 50%;
+   margin: .25em 1em .75em 0
+   overflow: hidden;
+   }
+
+/* descendent selector */
+
+figure.headshot img {
+    max-width: 110%;
+    margin-left: -5%;
+    }
+
+/* --- typography --- */
+
+a {
+  font-weight: bold;
+  color:#2455c3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+ font-size: 2.25em;
+ line-height: 1.167
+}
+main p {
+  font: 1.125em/1.667 Georgia, serif;
+  /* font-size: 1.125em; */
+  /* line-hight: 1.667; */
+  margin: 0 0 1.5em;
+  /* margin-top: 0; */
+  /* margin-bottom: 1.5em;
+}
+
+ p.byline {
+   margin-botom: .75em;
+}
+
+section.author h3 {
+  font: bold 1.125em/1.333 sans-serif;
+  margin-bottom: .1em;
+}
+
+section.author p {
+  font: .87em/1.714 Georgia, serif;
+  margin-top: 0;
+}
+
+/* p:firdst-child */
+  p.lead-in {
+    font-size: 1.5em;
+    /* border: 1px dashed #000; */
+    margin-right: -10%;
+    margin-left: -10%;
+  }
+
+blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+/* --- wider screen breakpoints ---*/
+
+ @media (min-width: 48em) {
+
+  div-bio {
+     margin-left: 9.375em;
+   }
+  figure.heashot {
+     margin:
+   }
+
+  }
+
+
