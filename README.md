@@ -25,7 +25,7 @@
 <p>In concuusion there is a prosses that you should go through to keep your work organized and readable but more importantly you need to know how you want to format your work band what is the content of the work before you get to the astetic propertys of a web page.ending off with the phrase mind over matter.</p>
 
 <img src="img/victoria.png" alt="Author headshot">
-<h2> <id="victoria-lopez"><a href"fragment">About the Author</a href</h2>
+<h2> <id="victoria-lopez"><a href"fragment">About the Author</a href></h2>
 
 <p>Victoria Lopez is a senior at Montserrat college of art compleating her BFA. She is currently living in Massachussets with the best roomies ever. She will graduate this December, and is more than excited for her senior show. p.s shes realy bad with computer stuffs.</p>
 
